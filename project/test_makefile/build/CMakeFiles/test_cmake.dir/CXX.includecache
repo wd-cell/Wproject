@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/project/test_makefile/bye.cpp
+bye.h
+F:/project/test_makefile/bye.h
+
+F:/project/test_makefile/bye.h
+iostream
+-
+
+F:/project/test_makefile/hello.cpp
+hello.h
+F:/project/test_makefile/hello.h
+
+F:/project/test_makefile/hello.h
+iostream
+-
+
+F:/project/test_makefile/test.cpp
+hello.h
+F:/project/test_makefile/hello.h
+bye.h
+F:/project/test_makefile/bye.h
+
