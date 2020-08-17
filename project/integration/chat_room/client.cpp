@@ -39,10 +39,11 @@ int main(){
     tid.detach();
 
     char buf[1024] = {0};
+    string stmp;
     while(1){
         //阻塞从标准输出读取信息到buf
         // ret = fread(buf, 1024, 1, 0);
-        string stmp;
+        stmp.clear();
         getline(cin, stmp);
         strcpy(buf, stmp.c_str());
 
@@ -51,6 +52,7 @@ int main(){
         //按下回车后将buf中的内容写到文件描述符
         //通过服务器转发给其他正在连接的客户端
         send(sd, buf, strlen(buf), 0);
+        // write(sd, buf, ret);
     }
 }
 
@@ -63,6 +65,6 @@ void do_thread(int i){
         if(ret <= 0)
             break;
         buf[ret] = '\0';
-        cout << "recv:" << buf;
+        cout << "recv:" << buf << endl;
     }
 }
