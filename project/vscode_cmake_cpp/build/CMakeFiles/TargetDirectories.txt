@@ -1,0 +1,6 @@
+F:/project/vscode_cmake_cpp/build/CMakeFiles/hello.dir
+F:/project/vscode_cmake_cpp/build/CMakeFiles/edit_cache.dir
+F:/project/vscode_cmake_cpp/build/CMakeFiles/rebuild_cache.dir
+F:/project/vscode_cmake_cpp/build/src/CMakeFiles/hellolib.dir
+F:/project/vscode_cmake_cpp/build/src/CMakeFiles/edit_cache.dir
+F:/project/vscode_cmake_cpp/build/src/CMakeFiles/rebuild_cache.dir

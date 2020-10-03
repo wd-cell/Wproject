@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/project/vscode_cmake_cpp/include/add.h
+stdio.h
+-
+
+F:/project/vscode_cmake_cpp/include/hello.h
+stdio.h
+-
+
+F:/project/vscode_cmake_cpp/main.cpp
+include/hello.h
+F:/project/vscode_cmake_cpp/include/hello.h
+include/add.h
+F:/project/vscode_cmake_cpp/include/add.h
+
